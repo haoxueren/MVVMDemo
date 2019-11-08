@@ -22,8 +22,15 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="click"
-            android:text="数据双向绑定"
+            android:onClick="updatePerson"
+            android:text="更改对象的值"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="queryPerson"
+            android:text="获取对象的值"
             android:textAllCaps="false" />
 
     </LinearLayout>
